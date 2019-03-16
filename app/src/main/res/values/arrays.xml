@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="red_wine">
+        <item>#ff670729</item>
+        <item>#ff7a0c2d</item>
+        <item>#ff96092d</item>
+        <item>#ffa10a37</item>
+        <item>#ffbf013b</item>
+    </string-array>
+
+    <string-array name="polluted_waves">
+        <item>#394948</item>
+        <item>#5a7874</item>
+        <item>#499092</item>
+        <item>#43abae</item>
+        <item>#6ecfd2</item>
+    </string-array>
+
+    <string-array name="medical_express">
+        <item>#a3a3a3</item>
+        <item>#bbbbbb</item>
+        <item>#cccccc</item>
+        <item>#dddddd</item>
+        <item>#eeeeee</item>
+    </string-array>
+
+    <string-array name="vertical_ntb">
+        <item>#df5a55</item>
+        <item>#f9bb72</item>
+        <item>#76afcf</item>
+        <item>#dd6495</item>
+        <item>#72d3b4</item>
+        <item>#563d91</item>
+        <item>#56342e</item>
+        <item>#8c9f58</item>
+    </string-array>
+    <!--<string-array name="query_suggestions">chaxun</string-array>-->
+
+
+    <string-array name="query_suggestions">
+        <item>涝汁拌生蚝
+祯祯宝贝 </item>
+        <item>【苏菜】话梅卤汁豆腐干</item>
+        <item>香辣意大利面</item>
+        <item>香糯的南瓜饼</item>
+        <item>草莓欧蕾</item>
+        <item>春节家宴喜庆硬菜系列二------[西式香烤全鸡]</item>
+        <item>你一定没吃过这样的芒果派，味道赞爆了！</item>
+        <item>造色情怀 芝士热狗吐司卷</item>
+        <item>香辣小龙虾</item>
+        <item>火龙果鸡蛋饼</item>
+        <item>火龙果燕麦果仁奶昔</item>
+        <item>炒一道排毒润肺清爽营养的素菜给家人——木耳炒百合</item>
+        <item>松鼠戏葡萄</item>
+        <item>麻辣烤肉串</item>
+        <item>干锅花菜</item>
+        <item>黄桃燕窝糖水</item>
+        <item>墨西哥卷饼</item>
+        <item>皮酥肉嫩的圣诞烤鸡</item>
+        <item>红酒烤鳗</item>
+        <item>醉人的红：【红丝绒婚礼蛋糕】</item>
+        <item>紫薯牛奶燕麦球</item>
+        <item>凉拌苦菊</item>
+        <item>自制葡萄果酱</item>
+        <item>香辣蟹</item>
+        <item>【江苏】新蜜汁黄金锤</item>
+        <item>酸奶巧克力慕斯</item>
+        <item>凤尾鲜虾烧卖</item>
+        <item>食面埋伏——柠醋百合蜜梨荞麦面</item>
+        <item>蔓越莓粗粮发糕</item>
+        <item>玉米面牛奶软饼</item>
+        <item>可乐鸡翅</item>
+        <item>橙香里脊</item>
+        <item>翡翠山药泥卷 宝宝辅食食谱</item>
+        <item>南瓜慕斯樱桃蛋糕</item>
+        <item>香浓的木瓜牛奶</item>
+        <item>豆角焖面</item>
+        <item>孜然羊肉卷</item>
+        <item>小餐包烩牛筋</item>
+        <item>麻辣小龙虾</item>
+        <item>山药木耳</item>
+        <item>蜜汁蒸三宝</item>
+        <item>红油蒜泥肘花</item>
+        <item>木瓜牛奶</item>
+        <item>拔丝香蕉</item>
+        <item>红枣雪梨木瓜汤</item>
+        <item>脆皮香蕉</item>
+        <item>食尚擂台烘焙赛区:圣诞疯狂夜---草莓挞</item>
+        <item>橙汁冬瓜</item>
+        <item>蒜香黑椒三文鱼排</item>
+        <item>黑椒牛排佐蜂蜜酱</item>
+        <item>菠萝炒饭</item>
+
+
+
+    </string-array>
+
+
+</resources>

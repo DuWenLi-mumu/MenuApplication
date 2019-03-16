@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search">
+
+
+        <ImageView
+
+            android:id="@+id/iv_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/background" />
+    <!--<ImageView-->
+
+        <!--android:id="@+id/iv_bg2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/background" />-->
+
+
+        <com.example.dwl.menuapplication.bean.vPage.BezierViewPager
+            android:layout_width="match_parent"
+            android:id="@+id/view_page"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            ></com.example.dwl.menuapplication.bean.vPage.BezierViewPager>
+
+
+
+
+</RelativeLayout>

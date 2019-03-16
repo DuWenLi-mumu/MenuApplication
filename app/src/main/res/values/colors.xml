@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffa000</color>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark">#FFc107</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="googlered">#DD5347</color>
+    <color name="green">#018577</color>
+    <color name="red">#FF0000</color>
+   c <color name="blue">#1BA1E2</color>
+    <color name="orange">#FF7d23</color>
+    <color name="gray_light">#e8e8e8</color>
+    <!-- state bar-->
+    <color name="material_dark">#303F9F</color>
+    <!-- toolbar-->
+    <color name="material">#3F51B5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <color name="brown1">#766156</color>
+
+    <color name="separator_line">#ECECEC</color>
+    <color name="title">#222222</color>
+    <color name="subtitle">#999999</color>
+    <color name="pink_acfun">#FD4C5B</color>
+    <color name="theme_primary_text_inverted">#ffffff</color>
+    <color name="theme_secondary_text_inverted">#8affffff</color>
+
+    <color name="theme_background">#FFFFFF</color>
+    <color name="theme_background_inverse">#212121</color>
+
+    <color name="theme_accent_1">#212121</color>
+
+    <color name="theme_primary_trans">#99212121</color>
+
+    <color name="theme_primary_text">#212121</color>
+    <color name="theme_secondary_text">#727272</color>
+
+    <color name="theme_icons">#FFFFFF</color>
+    <color name="theme_divider">#B6B6B6</color>
+
+    <!--个人主页-->
+    <color name="colorTextTitle">#333333</color>
+    <color name="colorTextContent">#444444</color>
+    <color name="colorTextAssistant">#888888</color>
+    <color name="colorDivision">#33aaaaaa</color>
+    <color name="colorBackgroundDark">#f2f2f2</color>
+</resources>

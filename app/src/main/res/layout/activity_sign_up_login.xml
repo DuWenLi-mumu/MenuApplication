@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignUpLogin">
+
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/pp" />
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mainLinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        tools:context="com.progress.mohak.signuplogin.MainActivity">
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.75"
+            android:background="@drawable/shape2"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/phone2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="0dp"
+                android:hint="@string/ed_hint_phone"
+                android:inputType="textCapSentences|textEmailAddress"
+                android:maxLength="11"
+                android:padding="20dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/name2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone2"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="0dp"
+                android:hint="@string/ed_name"
+                android:inputType="textPersonName"
+                android:padding="20dp"
+                android:visibility="gone" />
+
+
+            <EditText
+                android:id="@+id/pass2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name2"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="0dp"
+                android:hint="@string/ed_hint_passWord"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/pass3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pass2"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="0dp"
+                android:hint="请确认密码"
+                android:inputType="textPassword"
+                android:padding="20dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pass3"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:rotation="90"
+                android:text="注册"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/relative2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.25"
+            android:background="#C3F3F6B0"
+            android:gravity="center">
+
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:hint="@string/ed_hint_phone"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:padding="20dp" />
+
+
+            <EditText
+                android:id="@+id/et_passWord"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_phone"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:hint="@string/ed_hint_passWord"
+                android:inputType="textPassword"
+                android:padding="20dp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_passWord"
+                android:layout_margin="20dp"
+                android:orientation="horizontal"
+                android:paddingLeft="30dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:id="@+id/remember_pwd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="记住密码"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    android:paddingLeft="30dp">
+
+                    <CheckBox
+                        android:id="@+id/cb_auto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="自动登录"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+<!--
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/forget"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_passWord"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="40dp"
+                android:inputType="textCapSentences"
+                android:padding="20dp"
+                android:text="    Forget password?" />
+-->
+
+            <TextView
+                android:id="@+id/tv_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_passWord"
+                android:layout_marginTop="@dimen/dp_110"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:scaleX="2"
+                android:scaleY="2"
+                android:text="登录  "
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginStart="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_qq"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/mqq" />
+
+
+        <ImageView
+            android:id="@+id/img_weixin"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/weixin" />
+
+        <ImageView
+            android:id="@+id/img_weibo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/weibo" />
+
+    </LinearLayout>
+
+</FrameLayout>
